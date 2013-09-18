@@ -1,5 +1,5 @@
 var rand_n = function(n) {
-	list = [];
+	var list = [];
 	for (var i = 1; i <= n; i++) {
 		list.push(Math.floor((Math.random() * 100)));
 	}
