@@ -1,5 +1,5 @@
 var rand_n = function(n) {
-	list = [];
+	var list = [];
 	for (var i = 1; i <= n; i++) {
 		list.push(Math.floor((Math.random() * 100)));
 	}
@@ -17,7 +17,7 @@ var average = function(list) {
 var variance = function(rand_list, average){
 	variance_value = 0
 	for (var i = 0; i < rand_list.length; i++) {
-		variance_value += Number(Math.pow((list[i] - avg),2));
+		variance_value += Number(Math.pow((rand_list[i] - average),2));
 	}
 	return variance_value / rand_list.length;
 }
