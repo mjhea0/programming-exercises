@@ -6,4 +6,4 @@
 4. Generate a single random number, from 0 to 100, then output all the even numbers from 0 to the random number.
 5. Generate a single random number, from 0 to 100. If the number is greater than 40 then output all the odd numbers from 40 to the random number. If the number is less than 40, output all the odd numbers from 0 to 40.
 6. Generate a single random number, from 0 to 100. If the number is greater than 40 then output all the odd numbers from that number down to 40. If the number is less than 40, output all the odd numbers from that number down to 0.
-7. Write a function that returns the original amount, discount percentage, total discount, and total amount after discount, given the original amount and discount percentage. Raise an error if the discount amount is greater than 100 or less that 0 percent. Create two unit tests, testing a valid percentange and an invalid percentage.
+7. Write a function that returns the total discount ($), given the original amount and discount percentage. Return a warning if the discount amount is greater than 100 or less that 0 percent. Test the results.
