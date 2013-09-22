@@ -10,3 +10,4 @@
 8. Class it up. Wrap a class around the last function. Instantiate the class and call the function. Then use unittests and rspec to test.
 9. Generate n random numbers from 0 to 100, then output them in ascending order.
 10. Generate a random number from 1000 to 9999 and output the sum of its digits. For example, if the number is 1049, then the output should be 14.
+11. Generate a random number from 1000 to 9999 and output the sum of its digits, repeatedly, dropping the left-most digit after each iteration, until there is only one digit only. For example, if the number is 1049, then the output should be 14, 13, 13, 9.
