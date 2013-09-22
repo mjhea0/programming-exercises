@@ -9,3 +9,4 @@
 7. Write a function that returns the total discount ($), given the original amount and discount percentage. Return a warning if the discount amount is greater than 100 or less that 0 percent. Test the results.
 8. Class it up. Wrap a class around the last function. Instantiate the class and call the function. Then use unittests and rspec to test.
 9. Generate n random numbers from 0 to 100, then output them in ascending order.
+10. Generate a random number from 1000 to 9999 and output the sum of its digits. For example, if the number is 1049, then the output should be 14.
