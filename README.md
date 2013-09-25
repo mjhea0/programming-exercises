@@ -19,4 +19,4 @@
 15. Write a function that returns ten lines. On the first line there is one '#' character. On the second there are two. And so on. This will create a nice triangle.
 16. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
 17. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
-18. Create a simple webpage that includes three tags, an `<h1>`, <h2> and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag. 
+18. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag. 
