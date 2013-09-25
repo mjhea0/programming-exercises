@@ -1,7 +1,7 @@
 import unittest
 from prob8 import Discount
 
-class DiscounntTest(unittest.TestCase):
+class DiscountTest(unittest.TestCase):
 
 	def test_pass(self):
 		discount1 = Discount()

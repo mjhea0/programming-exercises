@@ -16,4 +16,5 @@
 12. Generate two random integers from 0 to 100 and output the smallest number such that each shares a least common denominator (aside for 1). For example, 18 and 6 should return 6, while 9 and 4 should return False. Return False if the two numbers are equal.
 13. Write a function that takes two random integers and returns the least common multiple.
 14. Write a program that calculates and shows the value of (x to the nth power). Let both integers fall within the range of 2 through 20.
-15. Write a function two ouput ten lines. Print out ten lines. On the first line there is one '#' character. On the second there are two. And so on. This will create a nice triangle.
+15. Write a function that ouputs ten lines. On the first line there is one '#' character. On the second there are two. And so on. This will create a nice triangle.
+16.
