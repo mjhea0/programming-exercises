@@ -7,17 +7,17 @@ var rand_print = function (rand_num){
 				greaterThan.push(i)
 			}
 		}
-		document.write(greaterThan.reverse())
+		return greaterThan.reverse()
 	} else {
 		for (var i = rand_num; i < 40; i++) {
 			if (i % 2 !== 0) {
 				lessThan.push(i)
 			}
 		}
-		document.write(lessThan.reverse())
+		return lessThan.reverse()
 	}
 }
 
 var rand_num = (Math.floor((Math.random() * 100)))
 document.write("The number is " + rand_num + "<br/>")
-rand_print(rand_num)
+document.write(rand_print(rand_num))
