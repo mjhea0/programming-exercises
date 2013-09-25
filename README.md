@@ -22,3 +22,4 @@
 18. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag. 
 19. Write a function that takes an object/hash/dictionary of people (keys) and their subseuqent ages as its argument, and then it returns the name of the oldest living person.
 20. Write two functions. Both take a base and an exponent as arguments and return the value of base^exponent. Use recursion in the first function and a loop in the second. Benchmark the results. 
+21. **Reverse**: Write a function that takes a string as an argument and returns the string in reversed order.
