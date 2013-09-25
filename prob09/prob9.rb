@@ -3,11 +3,12 @@ def generate_random(num)
 	(0..num).each do |x|
 		rand_nums << rand(1..100)
 	end
-	print rand_nums.sort
-	puts "\n"
+	return rand_nums.sort
 end
 
 
-generate_random(10)
-generate_random(20)
-generate_random(5)
+print generate_random(10)
+puts
+print generate_random(20)
+puts
+print generate_random(5)
