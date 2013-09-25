@@ -23,3 +23,4 @@
 19. Write a function that takes an object/hash/dictionary of people (keys) and their subseuqent ages as its argument, and then it returns the name of the oldest living person.
 20. Write two functions. Both take a base and an exponent as arguments and return the value of base^exponent. Use recursion in the first function and a loop in the second. Benchmark the results. 
 21. **Reverse**: Write a function that takes a string as an argument and returns the string in reversed order.
+22. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
