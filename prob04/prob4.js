@@ -5,7 +5,7 @@ var rand_print = function (rand_num){
 			array.push(i)
 		}
 	}
-return array
+	return array;
 }
 
 var rand_num = (Math.floor((Math.random() * 100)))
