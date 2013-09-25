@@ -17,4 +17,5 @@
 13. Write a function that takes two random integers as arguments and returns the least common multiple.
 14. Write a program that calculates and shows the value of (x to the nth power). Let both integers fall within the range of 2 through 20.
 15. Write a function that returns ten lines. On the first line there is one '#' character. On the second there are two. And so on. This will create a nice triangle.
-16. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string, and false otherwise.
+16. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
+17. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
