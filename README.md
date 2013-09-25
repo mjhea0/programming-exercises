@@ -20,3 +20,4 @@
 16. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
 17. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
 18. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag. 
+19. Write a function that takes an object/hash/dictionary of people (keys) and their subseuqent ages as its argument, and then it returns the name of the oldest living person.
