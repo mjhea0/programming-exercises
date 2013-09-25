@@ -8,11 +8,11 @@ def gcd(num1, num2):
 
 def smaller_num(x, y):
 	if x > y:
-		print y
+		return y
 	elif x == y:
-		print False
+		return False
 	else:
-		print x
+		return x
 
 
 rand_num1 = randrange(1,100)
@@ -20,7 +20,7 @@ rand_num2 = randrange(1,100)
 print "The numbers are " + str(rand_num1) + " and " + str(rand_num2)
 
 if gcd(rand_num1,rand_num2) > 1:
-	smaller_num(rand_num1, rand_num2)
+	print smaller_num(rand_num1, rand_num2)
 else:
 	print False
 
