@@ -26,3 +26,4 @@
 22. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
 23. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
 24. **Longest Word 2**: Refactor the "Longest Word" function so that it ignores punctuation.
+25. **Time Difference**: Write a function that takes two times in hours and minutes and returns the difference.
