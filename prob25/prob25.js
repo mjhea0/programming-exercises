@@ -1,3 +1,5 @@
+/** incomplete */
+
 function time_difference(s,e) {
 	return (e - s) / 1000 // sec
 }
