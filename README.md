@@ -27,3 +27,4 @@
 23. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
 24. **Longest Word 2**: Refactor the "Longest Word" function so that it ignores punctuation.
 25. **Time Difference**: Write a function that takes two times in hours and minutes and returns the difference.
+26. **Time Convert**: Write a function that takes an integer then returns the number in hours and minutes. For example, 63 should return 1:3.
