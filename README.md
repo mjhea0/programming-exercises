@@ -31,3 +31,4 @@
 27. Using JavaScript, create a function that handles errors. The function takes two integers as inputs and returns the result of dividing them. If the denominator is 0, throw an error.
 28. **Spiral**: Write a function called "spiral" that takes an NxM array as input and returns a "spiral" path through the array, starting in the upper-left corner and moving clockwise. For example: [[1,2,3],[8,9,4],[7,6,5]] => [1,2,3,4,5,6,7,8,9]
 29. **Password Generator**: Write a function that takes an integer as an input and returns a random password - with upper and lowercase letters, integers, and characters - the length of the integer.
+30. Using jQuery ad CSS, create new .js and .css files (prob30.css and prob30.js, respectively) so that when a user clicks on a button, the background color of the page will change.
