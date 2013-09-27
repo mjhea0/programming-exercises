@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Mad Libs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="prob31.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+  	  body {padding-top: 50px;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Morning Mad Libs</h1>
+      <br/>
+      <div id="blanks">
+        <form>
+          <label for="person">Boy's Name</label>
+          <input id="person" type="text"><br/>
+          <label for="adjective">Adjective</label>
+          <input id="adjective" type="text"><br/>
+          <label for="noun">Plural noun</label>
+          <input id="noun" type="text"><br/>
+          <label for="insect">An insect, plural</label>
+          <input id="insect" type="text"><br/>
+          <label for="noun2">Plural noun</label>
+          <input id="noun2" type="text"><br/>
+          <label for="verb">A verb ending in "s"</label>
+          <input id="verb" type="text"><br/><br/>
+          <button type="submit" class="btn btn-success">Let the magic happen!</button>
+        </form>
+      </div>
+      <br/>
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>I'm in love with <span class="person"></span>. He's so <span class="adjective"></span>! He has big flat <span class="noun"></span>, and when our <span class="insect"></span> meet, I get <span class="noun2"></span> in my stomach. I've fallen for him like a ton of <span class="verb"></span>, and he shuffles for me, too. But I think he's got another girlfriend. What should I do?</p>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script><script src="prob31.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
