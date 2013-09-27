@@ -16,7 +16,7 @@ $(function() {
   })
 
   $("button#white").click(function() {
-  	$("body").removeClass();
+    $("body").removeClass();
   })
 
 })
