@@ -32,3 +32,4 @@
 28. **Spiral**: Write a function called "spiral" that takes an NxM array as input and returns a "spiral" path through the array, starting in the upper-left corner and moving clockwise. For example: [[1,2,3],[8,9,4],[7,6,5]] => [1,2,3,4,5,6,7,8,9]
 29. **Password Generator**: Write a function that takes an integer as an input and returns a random password - with upper and lowercase letters, integers, and characters - the length of the integer.
 30. Using jQuery and CSS, create new .js and .css files (prob30.css and prob30.js, respectively) so that when a user clicks on a button, the background color of the page will change. Use the HTML code in the corresponding folder. You do not have to edit the file.
+31. **Mad Libs**: Using HTMl, CSS, and jQuery, create a mad libs game. Use an HTML form to take user input. Display the results however you'd like. Get creative.
