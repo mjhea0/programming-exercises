@@ -35,3 +35,4 @@
 31. **Mad Libs**: Using HTML, CSS, and jQuery, create a mad libs game. Use an HTML form to take user input. Display the results however you'd like. Get creative.
 32. Create a simple to-do list using jQuery. Make sure the user can remove the items.
 33. Create an app that pulls in your Github repos using AJAX. PUSH it to Heroku (using static files). Document the PUSH process. [http://git-ajax.herokuapp.com/](http://git-ajax.herokuapp.com/)
+34. Write a function that takes a single string as the input then return the number of vowels the string contains. Do not count "y" as a vowel.
