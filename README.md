@@ -34,4 +34,4 @@
 30. Using jQuery and CSS, create new .js and .css files (prob30.css and prob30.js, respectively) so that when a user clicks on a button, the background color of the page will change. Use the HTML code in the corresponding folder. You do not have to edit the file.
 31. **Mad Libs**: Using HTML, CSS, and jQuery, create a mad libs game. Use an HTML form to take user input. Display the results however you'd like. Get creative.
 32. Create a simple to-do list using jQuery. Make sure the user can remove the items.
-33. Create an app that pulls in your Github repos using AJAX. PUSH it to Heroku. Document the PUSH process. [http://git-ajax.herokuapp.com/](http://git-ajax.herokuapp.com/)
+33. Create an app that pulls in your Github repos using AJAX. PUSH it to Heroku (using static files). Document the PUSH process. [http://git-ajax.herokuapp.com/](http://git-ajax.herokuapp.com/)
