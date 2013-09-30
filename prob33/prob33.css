@@ -1,0 +1,41 @@
+.container {
+	width: 300px;
+}
+
+#repos {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+#repo_count {
+	font-weight: bold;
+}
+
+.list-group {
+	text-align: left;
+}
+
+ul li:hover {
+    background-color: #dff0d8;
+    cursor: pointer;
+}
+
+ul li a {
+	color: #468847;
+    text-decoration: none;
+}
+
+.btn {
+	background-color: #468847;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #468847;
+  border-color: #468847;
+}
