@@ -6,7 +6,7 @@ print reverse_string("hello world") == "dlrow olleh"
 
 
 
-# --- Palindrome Test --- #
+# --- Palindrome String Test --- #
 
 def palindrome(s):
 	if s == reverse_string(s):
@@ -18,3 +18,5 @@ def palindrome(s):
 print palindrome("hello world") == False
 print palindrome("dod") == True
 print palindrome("18899881") == True
+
+# --- Next? An array --- #
