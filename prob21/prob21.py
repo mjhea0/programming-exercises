@@ -15,8 +15,10 @@ def palindrome(s):
 		return False
 
 
+
 print palindrome("hello world") == False
 print palindrome("dod") == True
 print palindrome("18899881") == True
+
 
 # --- Next? An array --- #
