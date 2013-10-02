@@ -47,4 +47,4 @@
     "essence stays invisibly below."
 
 -and then checks the type (HTML tag) of the argument (H1, HX, or p). H1 has one "%", HX has two "%", and a p has none. Return each argument without the "&" characters as well as the type.
-
+38. TEST
