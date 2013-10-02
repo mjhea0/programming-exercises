@@ -44,4 +44,5 @@
     - "Below the surface of the machine, the program moves. Without effort, it expands and contracts. In great harmony, electrons scatter and regroup. The forms on the monitor are but ripples on the water. The essence stays invisibly below."
 
  And then checks the type (HTML tag) of the argument (H1, HX, or p). H1 has one "%", HX has two "%", and a p has none. Return each argument without the "&" characters as well as the type.
-38. TEST
+38. Build a function, splitParagraph which, takes a paragraph string as an input, and returns an array of paragraph fragments. (do not use any punctuation)
+
