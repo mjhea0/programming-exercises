@@ -39,7 +39,6 @@
 35. Create a function called "ex_oh" that takes a string of "x"s and "o"s as inputs. Return True if the number of "x"s and "o"s is even - and False otherwise.
 36. Write a function that takes an array of integers and returns the number of users in it. Then refactor this to use a helper function to first test whether an integer is zero or not that's called from the original function.
 37. Write a function that takes the following arguments -
-
     - "% The Book of Programming"
     - "%% The Two Aspects"
     - "Below the surface of the machine, the program moves. Without effort," +
