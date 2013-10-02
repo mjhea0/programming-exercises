@@ -40,7 +40,7 @@
 36. Write a function that takes an array of integers and returns the number of users in it. Then refactor this to use a helper function to first test whether an integer is zero or not that's called from the original function.
 37. Write a function that takes the following arguments -
 
-	- "% The Book of Programming"
+  - "% The Book of Programming"
 	- "%% The Two Aspects"
 	- "Below the surface of the machine, the program moves. Without effort," +
     "it expands and contracts. In great harmony, electrons scatter and" +
