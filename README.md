@@ -8,7 +8,7 @@
 1. Generate a single random number, from 0 to 100, then output all the even integers from 0 to the random number.
 1. Generate a single random number, from 0 to 100. If the number is greater than 40 then output all the odd integers from 40 to the random number. If the number is less than 40, output all the odd integers from 0 to 40.
 1. Generate a single random number, from 0 to 100. If the number is greater than 40 then output all the odd integers from that number down to 40. If the number is less than 40, output all the odd integers from that number down to 0.
-1. Write a function that returns the total discount ($), given the original amount and discount percentage. Return a warning if the discount amount is greater than 100 or less that 0 percent. Test the results.
+1. **Discount Percentage**: Write a function that takes a dollar amount and a discount percentage and returns the total discount amount. Return a warning if the discount amount is greater than 100 or less that 0 percent. Test the results.
 1. Class it up. Wrap a class around the last function. Instantiate the class and call the function. Then use unittests and rspec to test.
 1. Generate n random integers from 0 to 100, then output them in ascending order.
 1. Generate a random number from 1000 to 9999 and output the sum of its digits. For example, if the number is 1049, then the output should be 14.
