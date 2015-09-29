@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='guessApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>{{Title}}</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body ng-controller='GuessController'>
+
+    <div class="container" >
+      <h1 class="center">Guessing Game!</h1>
+      <p>Rules: You are going to set a number for the computer to guess, and the computer will also pick a number for you to guess.  You will take turns guessing, and the first to guess their opponent's number wins.</p>
+
+      <form name='userPickNum' ng-hide = 'userPicked'>
+      <label>Enter the number you want the computer to pick between 1-100 </label><br>
+        <input class="form-input" type="number" placeholder="1" ng-model="userPickedNum" min="1" max = '100' step="1" required>
+        <br>
+        <br>
+        <button ng-disabled="!userPickNum.$valid" type='submit' class = 'btn btn-primary' ng-click='setUserNum()'>Submit Number</button>
+        </form>
+      <div ng-show = 'userPicked'>
+        <h3>The computer is aiming for your pick of {{userPickedNum}}.</h3>
+      </div>
+
+      <div ng-show='guess'>
+        <h3>The computer guessed {{compGuessNum}}.</h3>
+      </div>
+
+      <div ng-show = 'userPicked'>
+
+      <div class="form-group">
+        <label>Enter your guess between 1-100 </label><br>
+        <form name='guessForm'>
+        <input class="form-input" type="number" placeholder="1" ng-model="userNum" min="1" max = '100' step="1" required>
+        <br>
+        <br>
+        <button ng-disabled="!guessForm.$valid" type='submit' class = 'btn btn-success' ng-click='userGuess()'>Guess!</button>
+        </form>
+      </div>
+      <button ng-click='win = true'class = 'btn btn-danger'> Give Up? </button>
+
+      <button ng-click='startOver()'type='submit' class = 'btn btn-warning'> Start Over</button>
+      </div>
+
+       <h3 ng-show='guess'> You guessed {{userNumber}}. <br>
+        That guess is {{proximity}}
+       </h3>
+
+       <h3 ng-show='win'>The computer chose {{compNum}}.
+       <br><br>
+            {{gameResult}}
+       </h3>
+
+
+    </div>
+    <h3>User Wins: {{userWins}}</h3>
+    <h3>Computer Wins : {{compWins}}</h3>
+</div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
