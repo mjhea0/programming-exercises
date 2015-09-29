@@ -45,3 +45,4 @@
 
   And then checks the type (HTML tag) of the argument (H1, HX, or p). H1 has one "%", HX has two "%", and a p has none. Return each argument without the "&" characters as well as the type.
 1. Build a function, `splitParagraph()`, which, takes a paragraph string as an input, and returns an array of paragraph fragments. (do not use any punctuation)
+1. **Guessing Game**: Create a basic website that asks the user to input an integer from 1 to 100. When the user inputs a number, it should tell the user if the number they entered is too high, too low, or the exact number. When the game is over - e.g., when the user guesses correctly - display a "Start Over" button allowing the user to play again! Also, add a "Give Up" button, which displays the number and starts the game over. You should only have three files - *index.html*, *main.js*, and *main.css*. Use either jQuery or Angular for interacting with the DOM.
