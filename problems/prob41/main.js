@@ -3,8 +3,8 @@
   'use strict';
 
   module.exports = function (arr) {
-    return arr.reduce(function(memo, number) {
-      return memo ^ number;
+    return arr.reduce(function(num1, num2) {
+      return num1 ^ num2;
     }, 0);
   };
 
