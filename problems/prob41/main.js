@@ -10,6 +10,8 @@
 
 }());
 
+// assumes the array is sorted
+
 
 
 
