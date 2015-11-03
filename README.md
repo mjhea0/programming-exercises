@@ -49,3 +49,4 @@
 1. **One Missing**: Write a function that takes an array of integers between 1 and 10, with one missing integer, as an argument and returns the missing integer. Test this with Mocha and Chai.
 1. **Find Odd Occurring Element**: Given an integer array, one element occurs odd number of times and all others have even occurrences. Find the element with odd occurrences.
 1. **Find Next Higher Number With Same Digits**: Write a function that takes an integer and returns the next higher number that uses only the digits in that number. For example - 1345 => 1354. Hint: Write tests first!
+1. **Longest Palindrome**: Write a function that takes a string as an argument and finds the longest palindrome, including whitespace. So, given the string "I am a dazzled racecar driver", the functon should return "d racecar d".
