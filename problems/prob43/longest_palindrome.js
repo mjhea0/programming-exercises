@@ -1,42 +1,38 @@
-// global
-var palindromes = [];
+// *** define functions *** //
 
-// helper function
-function getPalindromes(str) {
-
+function getPalindromes(str, result) {
   // compare substrings
   for (var i = 0; i < str.length; i++) {
-    // compare left
+    // compare one left
     if (str[i] === str[i - 1]) {
-      analyzePalindrome(str[i] + str[i - 1], str, i - 1, i);
-      // compare right
-    } else if (str[i] === str[i + 1]) {
-      analyzePalindrome(str[i] + str[i + 1], str, i, i + 1);
-      // compare left AND right
+      result = analyzePalindrome(str[i] + str[i - 1], str, i - 1, i);
+      // compare one right
+    } else if (str[i] === str[i + 2]) {
+      result = analyzePalindrome(str[i] + str[i + 1], str, i, i + 1);
+      // compare one left AND one right
     } else if (str[i - 1] === str[i + 1]) {
-      analyzePalindrome(str[i - 1] + str[i] + str[i + 1], str, i - 1, i + 1);
+      result = analyzePalindrome(str[i - 1] + str[i] + str[i + 1], str, i - 1, i + 1);
     }
   }
-
-  return palindromes;
-
+  return result;
 }
 
-// helper function
-var analyzePalindrome = function (result, str, leftIndex, rightIndex) {
-  while (str[leftIndex - 1] === str[rightIndex + 1]) {
-    result = str[leftIndex -= 1] + result + str[rightIndex += 1];
+var analyzePalindrome = function (currentResult, str, leftIndex, rightIndex) {
+  while ((str[leftIndex - 1] === str[rightIndex + 1]) && (currentResult !== str)) {
+    currentResult = str[leftIndex -= 1] + currentResult + str[rightIndex += 1];
   }
-  palindromes.push(result);
+  if (currentResult.length > result.length) {
+    result = currentResult;
+  }
+  return result;
 };
 
-// main
-function getLongestPalindrome(str) {
-  palindromeArr = getPalindromes(str);
-  return palindromeArr.reduce(function (previous, current) {
-    return current.length > previous.length ? current : previous;
-  }, '');
-}
 
+// *** invoke functions *** //
+
+var result = '';
 var str = 'I am a dazzled racecar driver';
-console.log(getLongestPalindrome(str) === 'd racecar d');
+console.log(getLongestPalindrome(str, result) === 'd racecar d');
+var result = '';
+var str2 = 'wow racecar wow';
+console.log(getLongestPalindrome(str2, result) === 'wow racecar wow');
