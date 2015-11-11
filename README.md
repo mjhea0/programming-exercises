@@ -51,5 +51,5 @@
 1. **Find Next Higher Number With Same Digits**: Write a function that takes an integer and returns the next higher number that uses only the digits in that number. For example - 1345 => 1354. Hint: Write tests first!
 1. **Longest Palindrome**: Write a function that takes a string as an argument and finds the longest palindrome, including whitespace. So, given the string "I am a dazzled racecar driver", the functon should return "d racecar d".
 1. **Byte String**: Write a function that takes an integer as an argument and converts it to a string that represents a rounded size in bytes. Examples:
-  - 156833213 => "149.57 MB"
-  - 8101 => "7.91 KB"
+  - 10221 => "9.98 KB"
+  - 1022932324 => "975.54 MB"
