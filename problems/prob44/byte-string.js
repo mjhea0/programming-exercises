@@ -12,3 +12,14 @@ function byteString(value) {
 }
 
 module.exports = byteString;
+
+
+// var units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+// function byteString(value) {
+//   var factor = Math.pow(10, 2);
+//   // var getUnit = ??????
+//   var output = Math.ceil(value / Math.pow(1024, 2) * factor) / factor;
+
+//   return num.toFixed(2) + ' ' + getUnit;
+// }
