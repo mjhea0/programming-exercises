@@ -54,5 +54,5 @@
   - 10221 => "9.98 KB"
   - 1022932324 => "975.54 MB"
 1. **CSV Parse**: Write a function that takes a string as an argument, where all values are either and integer or a string, and then return an array of the parsed input string. Examples:
-  - '3, 7, 9, 1, 25' => [3, 7, 9, 1, 25]
+  - '3,7,9,1,25' => [ 3, 7, 9, 1, 25 ]
   - '1, "one", 2, "two", 3, "three"' => [1, "one", 2, "two", 3, "three"]
