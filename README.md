@@ -20,7 +20,7 @@
 1. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
 1. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
 1. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag.
-1. Write a function that takes an object/hash/dictionary of people (keys) and their subseuqent ages as its argument, and then it returns the name of the oldest living person.
+1. Write a function that takes an object/hash/dictionary of people (keys) and their subsequent ages as its argument, and then it returns the name of the oldest living person.
 1. Write two functions. Both take a base and an exponent as arguments and return the value of base^exponent. Use recursion in the first function and a loop in the second. Benchmark the results.
 1. **Reverse**: Write a function that takes a string as an argument and returns the string in reversed order. Test if the string is the same reversed (Palindrome).
 1. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
@@ -49,7 +49,10 @@
 1. **One Missing**: Write a function that takes an array of integers between 1 and 10, with one missing integer, as an argument and returns the missing integer. Test this with Mocha and Chai.
 1. **Find Odd Occurring Element**: Given an integer array, one element occurs odd number of times and all others have even occurrences. Find the element with odd occurrences.
 1. **Find Next Higher Number With Same Digits**: Write a function that takes an integer and returns the next higher number that uses only the digits in that number. For example - 1345 => 1354. Hint: Write tests first!
-1. **Longest Palindrome**: Write a function that takes a string as an argument and finds the longest palindrome, including whitespace. So, given the string "I am a dazzled racecar driver", the functon should return "d racecar d".
+1. **Longest Palindrome**: Write a function that takes a string as an argument and finds the longest palindrome, including whitespace. So, given the string "I am a dazzled racecar driver", the function should return "d racecar d".
 1. **Byte String**: Write a function that takes an integer as an argument and converts it to a string that represents a rounded size in bytes. Examples:
   - 10221 => "9.98 KB"
   - 1022932324 => "975.54 MB"
+1. **CSV Parse**: Write a function that takes a string as an argument, where all values are either and integer or a string, and then return an array of the parsed input string. Examples:
+  - '3, 7, 9, 1, 25' => [3, 7, 9, 1, 25]
+  - '1, "one", 2, "two", 3, "three"' => [1, "one", 2, "two", 3, "three"]
