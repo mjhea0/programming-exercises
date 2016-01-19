@@ -56,3 +56,6 @@
 1. **CSV Parse**: Write a function that takes a string as an argument, where all values are either and integer or a string, and then return an array of the parsed input string. Examples:
   - '3,7,9,1,25' => [ 3, 7, 9, 1, 25 ]
   - '1, "one", 2, "two", 3, "three"' => [1, "one", 2, "two", 3, "three"]
+1. Create a function that takes a word as an argument and returns true if and only if all of the vowels in the word are the same.
+  - myFn('oligopoly') => false
+  - myFn('zoom') => true
