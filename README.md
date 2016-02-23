@@ -59,3 +59,4 @@
 1. Create a function that takes a word as an argument and returns true if and only if all of the vowels in the word are the same.
   - myFn('oligopoly') => false
   - myFn('zoom') => true
+1. **Flatten Array/Custom Callback**: Create a function that takes a nested array and a callback as arguments and returns a single, flattened array. Make sure to handle errors as well. Use a module to handle the work, making sure to export the function. Then call the function in a different file, passing in the arguments (array, callback).
