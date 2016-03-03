@@ -1,21 +1,19 @@
-var createTriangleWhile = function (num1,num2) {
-	var line = "";
-	var i = 0;
-	while (i < num2) {
-		line += "#";
-		document.write(line + "<br/>")
-		i++
-	}
+/*
+Write a function that takes a single number as an input and returns that many lines.
+On the first line there is one '#' character.
+On the second there are two. And so on.
+This will create a nice triangle.
+*/
+
+
+function createTriangle(num) {
+  var line = '';
+  var i = 0;
+  while (i < num) {
+    line += "#";
+    console.log(line);
+    i++;
+  }
 }
 
-var createTriangleFor = function (num1,num2) {
-	var line = "";
-	for (var i = 0; i < num2; i++) {
-		line += "#";
-		document.write(line + "<br/>")
-	}
-}
-
-createTriangleWhile(2,10)
-document.write("<br/>")
-createTriangleFor(2,10)
+console.log(createTriangle(10));
