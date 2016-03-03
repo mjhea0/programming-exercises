@@ -61,3 +61,4 @@ This will create a nice triangle.
   - myFn('oligopoly') => false
   - myFn('zoom') => true
 1. **Flatten Array/Custom Callback**: Create a function that takes a nested array and a callback as arguments and returns a single, flattened array. Make sure to handle errors as well. Use a module to handle the work, making sure to export the function. Then call the function in a different file, passing in the arguments (array, callback).
+1. **Intersection**: Write a function called `intersection` that takes two arrays as arguments and returns an array of the items that are in both input arrays. For example => intersection([1,2,3], [1,3,5]) should return [1,3]. Write tests!
