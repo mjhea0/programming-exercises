@@ -30,10 +30,10 @@ standard_deviation = (variance) ->
   Math.round std_dev
 
 rand_nums = rand_n(10)
-document.write "The numbers are " + rand_nums
+console.log "The numbers are " + rand_nums
 avg = average(rand_nums)
-document.write "<br/>The average is " + avg
+console.log "The average is " + avg
 var_variable = variance(rand_nums, avg)
-document.write "<br/>The variance is " + var_variable
+console.log "The variance is " + var_variable
 std_dev = standard_deviation(var_variable)
-document.write "<br/>The standard dev is " + std_dev
+console.log "The standard dev is " + std_dev
