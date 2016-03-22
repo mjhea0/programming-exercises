@@ -1,24 +1,24 @@
-var rand_n = function(n) {
-	list = [];
-	for (var i = 1; i <= n; i++) {
-		list.push(Math.floor((Math.random() * 100)));
-	}
-	return list;
+function createList(num) {
+  list = [];
+  for (var i = 1; i <= num; i++) {
+    list.push(Math.floor((Math.random() * 100)));
+  }
+  return list;
 }
 
-var max_n = function(list) {
-	return Math.max.apply(Math, list)
+function getMax(list) {
+  return Math.max.apply(Math, list);
 }
 
-var min_n = function(list) {
-	return Math.min.apply(Math, list)
+function getMin(list) {
+  return Math.min.apply(Math, list);
 }
 
-rand_nums = rand_n(20)
-document.write("The numbers are " + rand_nums)
+var list = createList(20);
+console.log("The numbers are " + list);
 
-max_num = max_n(rand_nums)
-document.write("<br/>The max number is " + max_num)
+var maxNumber = getMax(list);
+console.log("The max number is " + maxNumber);
 
-min_num = min_n(rand_nums)
-document.write("<br/>The min number is " + min_num)
+var minNumber = getMin(list);
+console.log("The min number is " + minNumber);
