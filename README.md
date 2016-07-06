@@ -62,3 +62,8 @@ This will create a nice triangle.
   - myFn('zoom') => true
 1. **Flatten Array/Custom Callback**: Create a function that takes a nested array and a callback as arguments and returns a single, flattened array. Make sure to handle errors as well. Use a module to handle the work, making sure to export the function. Then call the function in a different file, passing in the arguments (array, callback).
 1. **Intersection**: Write a function called `intersection` that takes two arrays as arguments and returns an array of the items that are in both input arrays. For example => intersection([1,2,3], [1,3,5]) should return [1,3]. Write tests!
+1. **Count It**: Count the letters in a string.
+  - Input: A string - like `'Hello World'`
+  - Output: Letters and how often they show up. - `d:1 e:1 h:1 l:3 o:2 r:1 w:1`
+  - Special: Convert all to lowercase. Ignore whitespace and anything not a-z
+  - Challenge input: 'The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.'
