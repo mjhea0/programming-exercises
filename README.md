@@ -67,3 +67,6 @@ This will create a nice triangle.
   - Output: Letters and how often they show up. - `d:1 e:1 h:1 l:3 o:2 r:1 w:1`
   - Special: Convert all to lowercase. Ignore whitespace and anything not a-z
   - Challenge input: 'The quick brown fox jumps over the lazy dog and the sleeping cat early in the day.'
+1. **Ramp Numbers** A ramp number is a number whose digits from left to right either only rise or stay the same. 1234 is a ramp number as is 1124. 1032 is not.
+  - Input: A positive integer, `n`.
+  - Output: `true` if the input is a ramp number, `false` if it is not
