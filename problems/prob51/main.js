@@ -14,6 +14,7 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
+
 //** calls **//
 
 console.log(isPalindrome('rAceCar'));
