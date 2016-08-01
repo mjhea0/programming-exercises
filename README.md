@@ -70,4 +70,7 @@ This will create a nice triangle.
 1. **Ramp Numbers** A ramp number is a number whose digits from left to right either only rise or stay the same. 1234 is a ramp number as is 1124. 1032 is not.
   - Input: A positive integer, `n`.
   - Output: `true` if the input is a ramp number, `false` if it is not
-1. **Palindrom**: Write a program to test if a string is palindromic.A Palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. Allowances may be made for adjustments to capital letters, punctuation, and word dividers.
+1. **Palindrome**: Write a program to test if a string is palindromic. A Palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. Allowances may be made for adjustments to capital letters, punctuation, and word dividers.
+1. **Combine and Sort**: Write a non-destructive function that takes two arrays and returns a new array with all items in alphabetical order.
+  - Input: Two arrays, `['cat', 'dog', 'fish', 'zebra']`, `['lion', 'aardvark', 'gorilla']`
+  - Output: A new array with all items in alphabetical order, `['aardvark', 'cat', 'dog', 'fish', 'gorilla', 'lion', 'zebra']`
