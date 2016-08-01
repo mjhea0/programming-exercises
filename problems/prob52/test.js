@@ -10,7 +10,7 @@
     var array2 = ['lion', 'aardvark', 'gorilla'];
     var combined = ['aardvark', 'cat', 'dog', 'fish', 'gorilla', 'lion', 'zebra'];
 
-    it('combineAndSort(array1, array2) should new array with all items in alphabetical order', function() {
+    it('combineAndSort(array1, array2) should return a new array with all items in alphabetical order', function() {
       expect(combineAndSort(array1, array2)).to.eql(combined);
     });
 
