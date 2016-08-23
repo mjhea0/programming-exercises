@@ -74,3 +74,6 @@ This will create a nice triangle.
 1. **Combine and Sort**: Write a non-destructive function that takes two arrays and returns a new array with all items in alphabetical order.
   - Input: Two arrays, `['cat', 'dog', 'fish', 'zebra']`, `['lion', 'aardvark', 'gorilla']`
   - Output: A new array with all items in alphabetical order, `['aardvark', 'cat', 'dog', 'fish', 'gorilla', 'lion', 'zebra']`
+1. **Product of Five**: Write a function called `productOfFive` that takes an integer and returns the product of the 5 adjacent numbers whose product is the largest.
+  - Input: `111333321`
+  - Output: `162`
