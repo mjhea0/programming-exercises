@@ -18,7 +18,7 @@
 1. Write a program that calculates and shows the value of (x to the nth power). Let both integers fall within the range of 2 through 20.
 1. **Triangle**: Write a function that takes a single number as an input and returns that many lines. On the first line there is one '#' character. On the second there are two. And so on.
 This will create a nice triangle.
-1. Write a function that takes two random, 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
+1. Write a function that takes two random 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
 1. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
 1. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag.
 1. Write a function that takes an object/hash/dictionary of people (keys) and their subsequent ages as its argument, and then it returns the name of the oldest living person.
@@ -77,3 +77,6 @@ This will create a nice triangle.
 1. **Product of Five**: Write a function called `productOfFive` that takes an integer and returns the product of the 5 adjacent numbers whose product is the largest.
   - Input: `111333321`
   - Output: `162`
+1. **Rotate Matrix**: Write a function named `rotateMatrix()` that rectangular array of numbers (a matrix) and returns the matrix rotated 90 degrees to the right.
+- Input: `[ [29, 62, 8], [12, 60, 31], [99, 79, 12] ];`
+- Output: `[ [99, 12, 29], [79, 60, 62], [12, 31, 8] ];`
