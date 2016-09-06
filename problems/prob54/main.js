@@ -4,20 +4,29 @@ Write a function named `rotateMatrix()` that rectangular array of numbers (a mat
 
  */
 
-function rotateMatrix(matrix){
-  let newArray = [];
-  let result = [];
-  for (let i = 0; i < matrix[0].length; i++) {
-    newArray = [];
-    for (let j = 0; j < matrix.length; j++) {
-      if (matrix[j]) {
-        newArray.unshift(matrix[j][i]);
-      }
-    }
-    result.push(newArray);
-  }
-  return result;
- }
+// function rotateMatrix(matrix) {
+//   let newArray = [];
+//   let result = [];
+//   for (let i = 0; i < matrix[0].length; i++) {
+//     newArray = [];
+//     for (let j = 0; j < matrix.length; j++) {
+//       if (matrix[j]) {
+//         newArray.unshift(matrix[j][i]);
+//       }
+//     }
+//     result.push(newArray);
+//   }
+//   return result;
+// }
+
+function rotateMatrix(matrix) {
+  return matrix[0].map((col, i) => {
+    return matrix.map((row, j) => {
+      let neg = matrix.length - (j + 1);
+      return matrix[neg][i];
+    });
+  });
+}
 
 const matrix1 = [
   [44, 23],
