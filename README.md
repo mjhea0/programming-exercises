@@ -77,6 +77,6 @@ This will create a nice triangle.
 1. **Product of Five**: Write a function called `productOfFive` that takes an integer and returns the product of the 5 adjacent numbers whose product is the largest.
   - Input: `111333321`
   - Output: `162`
-1. **Rotate Matrix**: Write a function named `rotateMatrix()` that rectangular array of numbers (a matrix) and returns the matrix rotated 90 degrees to the right.
+1. **Rotate Matrix**: Write a function named `rotateMatrix()` that takes a rectangular array of numbers (a matrix) and returns the matrix rotated 90 degrees to the right.
 - Input: `[ [29, 62, 8], [12, 60, 31], [99, 79, 12] ];`
 - Output: `[ [99, 12, 29], [79, 60, 62], [12, 31, 8] ];`
