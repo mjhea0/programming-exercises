@@ -83,3 +83,6 @@ This will create a nice triangle.
 1. **Weird Words**: Write a function `weirdWords()` that takes a string and changes every letter to the next letter in the alphabet and then returns the result. Note: spaces and special characters should remain the same. Capital letters should remain capitalized.
   - Input: `What is your name?`
   - Output: `Xibu jt zpvs obnf?`
+1. **Two Sum**: Write a function that takes an array of integers and a target integer. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in an array like so: [index1, index2].
+  - input: `[1, 2, 3, 4, 5, 6, 7], 13`
+  - output: `[5, 6]`
