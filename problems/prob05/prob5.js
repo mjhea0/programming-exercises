@@ -1,5 +1,5 @@
 function generateList(randNum) {
-  list = [];
+  var list = [];
   if (randNum > 40) {
     for (var i = 40; i <= randNum; i++) {
       if (i % 2 !== 0){
