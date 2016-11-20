@@ -2,10 +2,8 @@ from random import randrange
 from math import sqrt
 
 
-def variance(n1, n2, avg):
-    num1 = (n1 - avg)**2
-    num2 = (n2 - avg)**2
-    return num1 + num2
+def variance(n1, n2, average):
+    return (n1 - average)**2 + (n2 - average)**2
 
 
 def std_dev(variance):

@@ -29,7 +29,7 @@ function calculateVariance(list, average) {
   return varianceValue / list.length;
 }
 
- function calcualteStandardDeviation(variance) {
+function calcualteStandardDeviation(variance) {
   var stdDev = Math.sqrt(variance);
   return Math.round(stdDev);
 }
@@ -44,5 +44,5 @@ console.log('The average is ' + avg);
 var variance = calculateVariance(list, avg);
 console.log('The variance is ' + variance);
 
-stdDev = calcualteStandardDeviation(variance);
+var stdDev = calcualteStandardDeviation(variance);
 console.log('The standard dev is ' + stdDev);
