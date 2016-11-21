@@ -7,6 +7,6 @@ function randSum(num) {
   return total;
 }
 
-const randomNumber = Math.floor((Math.random() * 100));
+const randomNumber = Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000;
 console.log(`The number is ${randomNumber}`);
 console.log(`The sum of its digits is ${randSum(randomNumber)}`);
