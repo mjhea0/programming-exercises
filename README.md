@@ -16,8 +16,7 @@
 1. **Least Common Denominator**: Generate two random integers from 0 to 100 and output the smallest number such that each shares a least common denominator (aside for 1). For example, 18 and 6 should return 6, while 9 and 4 should return False. Return False if the two numbers are equal.
 1. **Least Common Multiple**: Write a function that takes two random integers as arguments and returns the least common multiple.
 1. **Power**: Write a program that calculates and shows the value of (x to the nth power). Let both integers fall within the range of 2 through 20.
-1. *Triangle*: Write a function that takes a single number as an input and returns that many lines. On the first line there is one '#' character. On the second there are two. And so on.
-This will create a nice triangle.
+1. ** Simple Triangle**: Write a function that takes a single number as an input and returns that many lines. On the first line there is one '#' character. On the second there are two. And so on. This will create a nice triangle.
 1. Write a function that takes two random 10-character strings as arguments, which returns True when the first string starts with the first two characters in the second string - and false otherwise.
 1. Write a function that takes a paragraph as an argument and returns an array that contains each string as an element.
 1. Create a simple webpage that includes three tags, an `<h1>`, `<h2>` and `<p>`, then using jQuery, create an alert that outputs the tag name when you click on the tag.
