@@ -10,11 +10,9 @@ This will create a nice triangle.
 
 function createTriangle(num) {
   var line = '';
-  var i = 0;
-  while (i < num) {
+  for (var i = 0; i < num; i++) {
     line += '#';
     console.log(line);
-    i++;
   }
 }
 
